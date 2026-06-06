@@ -1,0 +1,35 @@
+{
+  "name": "ftp-file-server",
+  "version": "1.0.0",
+  "description": "A simple FTP-style file server built with **Node.js**, **Express.js**, and **Serve-Index** that allows users to browse, view, and download files through a web browser.",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulraji18/node-ftp-file-server.git"
+  },
+  "keywords": [],
+  "author": "https://www.linkedin.com/in/rahul-rajeevan/",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulraji18/node-ftp-file-server/issues"
+  },
+  "homepage": "https://github.com/rahulraji18/node-ftp-file-server#readme",
+  "dependencies": {
+    "@types/serve-index": "^1.9.4",
+    "express": "^5.2.1",
+    "serve-index": "^1.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.2",
+    "dotenv": "^17.4.2",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
